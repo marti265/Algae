@@ -1,0 +1,6 @@
+framework module Pods_Algae_Estimator {
+  umbrella header "Pods-Algae Estimator-umbrella.h"
+
+  export *
+  module * { export * }
+}
