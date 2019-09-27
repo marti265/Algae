@@ -13,6 +13,7 @@
 		751BB8771DCE66C000678BB6 /* DataLog2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BB8761DCE66C000678BB6 /* DataLog2ViewController.swift */; };
 		751BB8791DCE782200678BB6 /* DataLog2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BB8781DCE782200678BB6 /* DataLog2TableViewCell.swift */; };
 		793795B9888AEC73433689B7 /* Pods_Algae_EstimatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40B394B362F49A115019AA9 /* Pods_Algae_EstimatorTests.framework */; };
+		8202D6B4233E86D100F811D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202D6B3233E86D100F811D5 /* File.swift */; };
 		84F63DDA1DA5B2D000753A32 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63DD91DA5B2D000753A32 /* DataViewController.swift */; };
 		FD0AD0E91DF625B00061509F /* Test_Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AD0E81DF625B00061509F /* Test_Calculation.swift */; };
 		FD1C31C21DB85118007C7036 /* PO4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C31C11DB85118007C7036 /* PO4ViewController.swift */; };
@@ -59,6 +60,7 @@
 		751BB8741DCE649200678BB6 /* DataLogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLogTableViewCell.swift; sourceTree = "<group>"; };
 		751BB8761DCE66C000678BB6 /* DataLog2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLog2ViewController.swift; sourceTree = "<group>"; };
 		751BB8781DCE782200678BB6 /* DataLog2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLog2TableViewCell.swift; sourceTree = "<group>"; };
+		8202D6B3233E86D100F811D5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		84F63DD91DA5B2D000753A32 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		91A39DD037E59AD49E703241 /* Pods-Algae EstimatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algae EstimatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algae EstimatorUITests/Pods-Algae EstimatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		98017A4453AFFC99111A86F8 /* Pods-Algae EstimatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algae EstimatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algae EstimatorTests/Pods-Algae EstimatorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				FDC95D121DC18489003AB088 /* PO4EstimatesViewController.swift */,
 				FD1C31C11DB85118007C7036 /* PO4ViewController.swift */,
 				FD46F44D1DE24D0800B12986 /* SegueFromLeft.swift */,
+				8202D6B3233E86D100F811D5 /* File.swift */,
 			);
 			path = "Algae Estimator";
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 				84F63DDA1DA5B2D000753A32 /* DataViewController.swift in Sources */,
 				FD4EE91E1D9F26A00083C393 /* CalculateViewController.swift in Sources */,
 				FD4EE91C1D9F269F0083C393 /* AppDelegate.swift in Sources */,
+				8202D6B4233E86D100F811D5 /* File.swift in Sources */,
 				FDFEA9841DD90C210082D6DB /* GraphViewController.swift in Sources */,
 				FD5990021DC461950061816E /* ChlEstimateViewController.swift in Sources */,
 				FD46F44E1DE24D0800B12986 /* SegueFromLeft.swift in Sources */,

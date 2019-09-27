@@ -11,6 +11,7 @@
         <scene sceneID="l3H-wu-qVM">
             <objects>
                 <tabBarController title="Chl Entry" id="sVE-A7-Rfj" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7Ef-bk-lhw"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Juy-Cx-Asf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -144,6 +145,7 @@
         <scene sceneID="45W-fp-nvL">
             <objects>
                 <tabBarController title="PO4 Entry" id="pfQ-Nm-DuW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2IT-nV-zyw"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="rsL-d9-CZp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -162,6 +164,7 @@
         <scene sceneID="Lz5-xU-Zdn">
             <objects>
                 <tabBarController title="Data Log" id="OQj-UK-l0F" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="oz1-cV-EKv"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="HFN-xi-m5I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -176,24 +179,6 @@
             </objects>
             <point key="canvasLocation" x="580" y="-254"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="dpT-KS-ulX">
-            <objects>
-                <viewController id="fFm-gC-FAF" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3uk-8u-c5d"/>
-                        <viewControllerLayoutGuide type="bottom" id="UlD-Hk-abh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kBV-50-Vlu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9lf-sL-obb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3585" y="-254"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="eDU-ka-jQL">
             <objects>
@@ -203,12 +188,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="JGi-vB-afj" kind="relationship" relationship="rootViewController" id="fEh-F6-fBi"/>
+                        <segue destination="JGi-vB-afj" kind="relationship" relationship="rootViewController" id="WZe-fR-Jdy"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o08-X2-PhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2519" y="-254"/>
+            <point key="canvasLocation" x="-2570" y="-254"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Pr6-fP-HTK">
@@ -344,6 +329,7 @@
                             <constraint firstAttribute="bottom" secondItem="mrC-tY-40R" secondAttribute="bottom" id="mvp-36-reS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="lSB-N8-FDa"/>
                     <connections>
                         <outlet property="tableView" destination="mrC-tY-40R" id="29x-nj-Y1U"/>
                     </connections>
@@ -404,6 +390,7 @@
                             <outlet property="delegate" destination="EgI-Z9-iwe" id="44Q-xO-pPk"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="YnT-qZ-CMh"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h1v-Ke-hyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -496,6 +483,7 @@
                             <constraint firstItem="buZ-fR-9MR" firstAttribute="leading" secondItem="Zon-tH-RFp" secondAttribute="leading" id="yVd-1F-9jr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="TJW-sf-7hb"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -589,6 +577,7 @@
                             <constraint firstAttribute="trailing" secondItem="jVU-BI-Hcq" secondAttribute="trailing" id="iPV-Ua-y1w"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="8pG-Ue-Czg"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -697,6 +686,7 @@
                             <constraint firstItem="4oA-a7-060" firstAttribute="bottom" secondItem="3mN-c8-5Gh" secondAttribute="top" id="oDo-xN-Cki"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ZUG-n4-m0g"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -803,6 +793,7 @@
                             <constraint firstItem="XXk-Cs-q6g" firstAttribute="top" secondItem="nUy-Zz-x5m" secondAttribute="top" id="upv-X1-kwu"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="t5k-8T-bQg"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
@@ -873,6 +864,7 @@
                             <constraint firstAttribute="trailing" secondItem="I1D-FD-Us9" secondAttribute="trailing" id="UoZ-TR-kt7"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vXJ-Vn-cop"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -967,6 +959,7 @@
                             <constraint firstItem="Yhd-ly-MAE" firstAttribute="top" secondItem="f1a-8f-DBv" secondAttribute="top" id="dxY-bt-InJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="lxI-Ij-0tV"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -1032,6 +1025,7 @@
                             <constraint firstItem="qjA-Og-rdd" firstAttribute="bottom" secondItem="lYR-DC-bVl" secondAttribute="top" id="zlX-aE-3v6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="H4k-2g-dOV"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -1055,7 +1049,7 @@
                                 <rect key="frame" x="-4" y="0.0" width="383" height="720"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dialog_chla" translatesAutoresizingMaskIntoConstraints="NO" id="zV3-Tr-A5A">
-                                        <rect key="frame" x="71" y="109" width="240.00000000000011" height="128"/>
+                                        <rect key="frame" x="71" y="109" width="240" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="ZoD-NM-V2S"/>
                                             <constraint firstAttribute="width" secondItem="zV3-Tr-A5A" secondAttribute="height" multiplier="15:8" id="erF-co-2RT"/>
@@ -1197,6 +1191,7 @@
                             <constraint firstItem="un7-Gv-dlY" firstAttribute="top" secondItem="aJG-Bk-Pbp" secondAttribute="top" id="mDS-2b-ja7"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vah-bP-xDe"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -1287,6 +1282,7 @@
                             <constraint firstAttribute="trailing" secondItem="VJT-Hq-LNz" secondAttribute="trailing" id="SJW-RR-zNv"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="U1D-G1-4ll"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
@@ -3687,7 +3683,7 @@
         <image name="test_strip" width="101.5" height="104.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fEh-F6-fBi"/>
+        <segue reference="WZe-fR-Jdy"/>
         <segue reference="Y2d-5x-27M"/>
     </inferredMetricsTieBreakers>
 </document>
