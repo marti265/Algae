@@ -19,33 +19,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="bg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qkc-df-zTs">
-                                <rect key="frame" x="-61" y="-124" width="506" height="1144"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="LfA-L0-kwt">
+                                <rect key="frame" x="-88" y="-69" width="555" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algae Watch" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iJ-vw-0so" userLabel="Algae">
-                                <rect key="frame" x="0.0" y="369" width="375" height="246"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="tfy-Oy-QNH">
+                                <rect key="frame" x="7" y="345" width="337" height="180"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2iJ-vw-0so" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="369" id="671-0y-FeV"/>
-                            <constraint firstAttribute="trailing" secondItem="2iJ-vw-0so" secondAttribute="trailing" id="APG-YN-2Tj"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="2iJ-vw-0so" secondAttribute="bottom" constant="52" id="IA0-ON-d17"/>
-                            <constraint firstItem="2iJ-vw-0so" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="no0-Vk-2sT"/>
+                            <constraint firstItem="tfy-Oy-QNH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-9" id="Wu0-P5-biH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tfy-Oy-QNH" secondAttribute="trailing" constant="15" id="aKN-OV-6An"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="tfy-Oy-QNH" secondAttribute="bottom" constant="142" id="doT-71-Msq"/>
+                            <constraint firstItem="tfy-Oy-QNH" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="345" id="wZH-7M-xVE"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="52" y="373.76311844077964"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Title" width="283" height="173.5"/>
         <image name="bg" width="751" height="1334.5"/>
     </resources>
 </document>
