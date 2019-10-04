@@ -14,6 +14,7 @@
 		751BB8791DCE782200678BB6 /* DataLog2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BB8781DCE782200678BB6 /* DataLog2TableViewCell.swift */; };
 		793795B9888AEC73433689B7 /* Pods_Algae_EstimatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40B394B362F49A115019AA9 /* Pods_Algae_EstimatorTests.framework */; };
 		8202D6B823417C5000F811D5 /* HomeViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202D6B723417C5000F811D5 /* HomeViewControllers.swift */; };
+		82EB4F5B23473E420052DEBA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB4F5A23473E420052DEBA /* MenuViewController.swift */; };
 		84F63DDA1DA5B2D000753A32 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63DD91DA5B2D000753A32 /* DataViewController.swift */; };
 		FD0AD0E91DF625B00061509F /* Test_Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AD0E81DF625B00061509F /* Test_Calculation.swift */; };
 		FD1C31C21DB85118007C7036 /* PO4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C31C11DB85118007C7036 /* PO4ViewController.swift */; };
@@ -61,6 +62,7 @@
 		751BB8761DCE66C000678BB6 /* DataLog2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLog2ViewController.swift; sourceTree = "<group>"; };
 		751BB8781DCE782200678BB6 /* DataLog2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLog2TableViewCell.swift; sourceTree = "<group>"; };
 		8202D6B723417C5000F811D5 /* HomeViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllers.swift; sourceTree = "<group>"; };
+		82EB4F5A23473E420052DEBA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		84F63DD91DA5B2D000753A32 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		91A39DD037E59AD49E703241 /* Pods-Algae EstimatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algae EstimatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algae EstimatorUITests/Pods-Algae EstimatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		98017A4453AFFC99111A86F8 /* Pods-Algae EstimatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algae EstimatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algae EstimatorTests/Pods-Algae EstimatorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				FD4EE92A1D9F26A00083C393 /* Info.plist */,
 				FD4EE9271D9F26A00083C393 /* LaunchScreen.storyboard */,
 				FD4EE91F1D9F26A00083C393 /* Main.storyboard */,
+				82EB4F5A23473E420052DEBA /* MenuViewController.swift */,
 				FD7310D61DC4100900ACBE6A /* MyConstants.swift */,
 				FDC95D121DC18489003AB088 /* PO4EstimatesViewController.swift */,
 				FD1C31C11DB85118007C7036 /* PO4ViewController.swift */,
@@ -514,6 +517,7 @@
 				FD46F44E1DE24D0800B12986 /* SegueFromLeft.swift in Sources */,
 				FD46F44B1DE24ACD00B12986 /* DataSetTableViewCell.swift in Sources */,
 				FDC95D131DC18489003AB088 /* PO4EstimatesViewController.swift in Sources */,
+				82EB4F5B23473E420052DEBA /* MenuViewController.swift in Sources */,
 				FD1C31C21DB85118007C7036 /* PO4ViewController.swift in Sources */,
 				751BB8791DCE782200678BB6 /* DataLog2TableViewCell.swift in Sources */,
 				FD4EE9241D9F26A00083C393 /* Algae_Estimator.xcdatamodeld in Sources */,

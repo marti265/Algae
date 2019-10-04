@@ -226,7 +226,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3g-Wh-RXk">
-                                                    <rect key="frame" x="245" y="11" width="34" height="21"/>
+                                                    <rect key="frame" x="245" y="11" width="34" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -2528,10 +2528,48 @@
             </objects>
             <point key="canvasLocation" x="-8977" y="-344"/>
         </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="MSr-4L-24V">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" id="0cw-o0-GaD" customClass="MenuViewController" customModule="Algae_Estimator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="njL-VB-pd3"/>
+                        <viewControllerLayoutGuide type="bottom" id="IB0-s6-v4F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1PB-Ge-NhH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-ot-iDJ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRj-pe-sZc">
+                                <rect key="frame" x="0.0" y="44" width="278" height="623"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="WRj-pe-sZc" firstAttribute="top" secondItem="njL-VB-pd3" secondAttribute="bottom" id="2V6-cn-cKg"/>
+                            <constraint firstAttribute="trailing" secondItem="HHm-ot-iDJ" secondAttribute="trailing" id="DpT-LS-XHP"/>
+                            <constraint firstItem="HHm-ot-iDJ" firstAttribute="leading" secondItem="1PB-Ge-NhH" secondAttribute="leading" id="Guc-qj-jq3"/>
+                            <constraint firstItem="WRj-pe-sZc" firstAttribute="leading" secondItem="1PB-Ge-NhH" secondAttribute="leading" id="PJf-8a-oce"/>
+                            <constraint firstItem="IB0-s6-v4F" firstAttribute="top" secondItem="WRj-pe-sZc" secondAttribute="bottom" id="Yj4-qk-Wvo"/>
+                            <constraint firstAttribute="trailing" secondItem="WRj-pe-sZc" secondAttribute="trailing" constant="97" id="aQ6-1M-TmS"/>
+                            <constraint firstItem="IB0-s6-v4F" firstAttribute="top" secondItem="HHm-ot-iDJ" secondAttribute="bottom" id="oxt-dC-MKg"/>
+                            <constraint firstItem="HHm-ot-iDJ" firstAttribute="top" secondItem="njL-VB-pd3" secondAttribute="bottom" id="yRa-If-KZs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NzL-mh-Bu5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mNj-3a-neH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7268" y="-2176"/>
+        </scene>
         <!--Algae011 View Controller-->
         <scene sceneID="qSE-Fo-PHo">
             <objects>
-                <viewController storyboardIdentifier="algae_0_1_1_ViewController" id="AaI-ON-brq" customClass="algae_0_1_1_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="algae_0_1_1_ViewController" id="AaI-ON-brq" customClass="algae_0_1_1_ViewController" customModule="Algae_Estimator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RQ2-uA-5yY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2545,6 +2583,9 @@
                                     <constraint firstAttribute="height" constant="21" id="TRL-ZP-PL0"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Hamburger Menu"/>
+                                <connections>
+                                    <segue destination="0cw-o0-GaD" kind="show" id="SyX-Jk-goB"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sof-NQ-7UV">
                                 <rect key="frame" x="22.5" y="92" width="330" height="575"/>
@@ -2631,7 +2672,7 @@
         <!--Algae0112 View Controller-->
         <scene sceneID="vyT-OB-NWJ">
             <objects>
-                <viewController storyboardIdentifier="algae_0_1_1_2_ViewController" id="Cpp-RQ-H9L" customClass="algae_0_1_1_2_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="algae_0_1_1_2_ViewController" id="Cpp-RQ-H9L" customClass="algae_0_1_1_2_ViewController" customModule="Algae_Estimator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dMJ-W0-5BG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2737,7 +2778,7 @@
         <!--Algae0111 View Controller-->
         <scene sceneID="X0V-uu-tjO">
             <objects>
-                <viewController storyboardIdentifier="algae_0_1_1_1_ViewController" id="5kP-DI-O2h" customClass="algae_0_1_1_1_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="algae_0_1_1_1_ViewController" id="5kP-DI-O2h" customClass="algae_0_1_1_1_ViewController" customModule="Algae_Estimator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Df-hj-NNi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
