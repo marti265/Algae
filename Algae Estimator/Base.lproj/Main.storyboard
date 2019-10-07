@@ -3115,10 +3115,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="EPy-ca-qFm">
-                                        <rect key="frame" x="0.0" y="25" width="2112" height="719"/>
+                                        <rect key="frame" x="0.0" y="25" width="4224" height="719"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose which image most resembles your body of water." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lp7-tI-erg">
-                                                <rect key="frame" x="0.0" y="0.0" width="2112" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="4224" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="Xon-kS-BIc"/>
                                                 </constraints>
@@ -3127,7 +3127,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4b-58-19w">
-                                                <rect key="frame" x="0.0" y="69" width="2112" height="200"/>
+                                                <rect key="frame" x="0.0" y="69" width="4224" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="Fwa-ja-B5g"/>
                                                 </constraints>
@@ -3139,7 +3139,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ysy-rz-zlV">
-                                                <rect key="frame" x="0.0" y="294" width="2112" height="200"/>
+                                                <rect key="frame" x="0.0" y="294" width="4224" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="3cy-bW-Db9"/>
                                                 </constraints>
@@ -3148,7 +3148,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvf-Wh-nSC">
-                                                <rect key="frame" x="0.0" y="519" width="2112" height="200"/>
+                                                <rect key="frame" x="0.0" y="519" width="4224" height="200"/>
                                                 <state key="normal" image="algae_0_1_1_Img3">
                                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>

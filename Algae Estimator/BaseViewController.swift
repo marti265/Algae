@@ -9,6 +9,8 @@
 import UIKit
 
 class BaseViewController: UIViewController, SlideMenuDelagate   {
+    func slideMenuItemsSelectedAtIndex(_ index: Int32) {}
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -124,7 +126,7 @@ class BaseViewController: UIViewController, SlideMenuDelagate   {
         
         let menuVC : MenuViewController = self.storyboard!.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         menuVC.btnMenu = sender
-        menuVC.delegate = self
+        menuVC.delagate = self
         self.view.addSubview(menuVC.view)
         self.addChild(menuVC)
         menuVC.view.layoutIfNeeded()
