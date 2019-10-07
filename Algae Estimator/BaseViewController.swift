@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseViewController: UIViewController, SlideMenuDelagate{
+class BaseViewController: UIViewController, SlideMenuDelagate   {
     
     override func viewDidLoad() {
         super.viewDidLoad()
